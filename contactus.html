@@ -1,0 +1,179 @@
+<html>
+<title>Contact Us</title>
+
+
+<body background="https://www.propertyhunter.com.my/transfer/210708110239Sarawak-Assembly-Bernama-131119.jpg">
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="https://awards.brandingforum.org/wp-content/uploads/2019/11/AISB_logo_vertical-design-01-1024x768.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="#">
+          <label for="fname">Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Email:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email..">
+          <label for="subject">Message:</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit" onclick="nak()">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+    function nak(){
+        alert("Thank you for contacting us. We will back to you soon");
+    }
+    function taknak() {
+        var i = Math.floor(Math.random() * 300) + 1;
+        var j = Math.floor(Math.random() * 600) + 1;
+        btn.style.left = i + "px";
+        btn.style.top = j + "px";
+    }
+</script>
+
+<h3>Contact Us If Require</h3>
+<table>
+<tr align="center">
+  <td>Office</td>
+  <td>Phone</td>
+</tr>
+
+<tr>
+  <td>Kuala Lumpur <br>Level 2, GLO Damansara <br>No. 699 Jalan Damansara, Taman Tun Dr. Ismail,<br> 60000 Kuala Lumpur, Malaysia</td>
+  <td>+603-77 300 700</td>
+</tr>
+
+<tr>
+  <td>Al-Ikhsan AEON Kota Bharu <br>Lot F22, First Floor, AEON Mall Kota Bharu, <br> Kampung Sireh, Jln Jambatan Sultan Yahya Petra,<br>15050 Kota Bharu, Kelantan</td>
+  <td>+6013-77727028</td>
+</tr>
+
+<tr>
+  <td>Al-Ikhsan Kota Bharu <br> Plot 4,5,6, Lot 268, Jalan Sultanah Zainab, <br> Seksyen 15, 15200 Kota Bharu, Kelantan</td>
+  <td>+6013-7759622</td>
+</tr>
+
+<tr>
+  <td>Al-Ikhsan Kubang Kerian <br> No 4 & 5, Jalan KK 6/2 Bandar Baru Kubang Kerian, <br> 16150 Kubang Kerian, Kota Bharu Kelantan</td>
+  <td>+6013-7758349</td>
+</tr>
+ 
+</table>
+
+<h3 >Customer Support</h3>
+<table>
+  <tr>
+    <td>MONDAY - FRIDAY <br> 9 AM - 6 PM (Malaysian Time)<br>Toll Free: 1800 22 8188<br>Hotline : +60 177 588 794 / +60 127 881 645 <br> Any required, email us at  customer.service@al-ikhsan.com</td>
+  </tr>
+</table>
+</body>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+table,tr,td
+  {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td
+    {
+        padding: 10px;
+    }
+
+tr
+    {
+        background-color: coral;
+    }
+
+th
+    {
+        background-color: goldenrod;
+        padding: 5px;
+        color: ivory;
+    }
+
+tr:nth-child(even)
+    {
+        background-color: burlywood;
+    }
+
+tr:hover
+    {
+        background-color: darkgrey;
+    }
+table
+    {
+      float: left;
+    }
+
+body {
+  background-image: url('https://www.propertyhunter.com.my/transfer/210708110239Sarawak-Assembly-Bernama-131119.jpg');
+  
+}
+
+
+
+</style>
+</html>
